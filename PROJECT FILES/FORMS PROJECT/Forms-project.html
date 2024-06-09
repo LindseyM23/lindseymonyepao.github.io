@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Project</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Add User</legend>
+        <label for="FirstName">Name</label><br />
+        <input type="text" id="Firstname" placeholder="Name" />
+        <br />
+        <label for="LastName">Surame</label><br />
+        <input type="text" id="Lastname" placeholder="Last Name" />
+        <br />
+        <label for="email">Email</label><br />
+        <input type="email" id="email" placeholder="Email" />
+        <br />
+        <br />
+        <label for="select-status">Status</label>
+        <br />
+        <select name="select-status" id="status-select">
+          <option value="status-caption">Please select a status</option>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="guest">Guest</option>
+        </select>
+        <br />
+        <p>Choose your favourite programming language</p>
+        <input type="radio" name="programme" id="html" />
+        <label for="html">HTML</label>
+        <br />
+        <input type="radio" name="programme" id="css" />
+        <label for="css">CSS</label>
+        <br />
+        <input type="radio" name="programme" id="“javascript”" />
+        <label for="javascript">JavaScript</label>
+        <br />
+        <br />
+        <label for="Comments">Comments</label><br />
+        <input type="text" name="Comments" id="comments" />
+        <br />
+        <br />
+        <label for="date">Current Date</label><br />
+        <input type="date" name="current-date" id="date" />
+        <br />
+        <br />
+        <label for="newsletter">Sign up for the newsletter</label>
+        <input type="checkbox" name="newsletter" id="check-newsletter" />
+        <br />
+        <label for="ts-and-cs">Agree to Terms and Conditions</label>
+        <input type="checkbox" name="ts-and-cs" id="terms-and-conditions" />
+        <br /><br />
+        <input type="submit" name="Submit" id="send-info" />
+      </fieldset>
+    </form>
+  </body>
+</html>
